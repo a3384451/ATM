@@ -218,7 +218,7 @@ class ATM(object):
                 return
 
             if transfer_money > balance:
-                print('余额不足')
+                print('余额不足了')
                 return
 
             # 如果使用事务操作会更好
