@@ -1,0 +1,30 @@
+
+2018-09-29 16:53:53,833 - root - INFO - cxm login success
+2018-09-29 16:54:20,904 - root - INFO - cxm 存款 1500.00元
+2018-09-29 17:06:38,174 - root - INFO - cxm login success
+2018-09-29 17:06:53,519 - root - INFO - cxm 存款 1500.00元
+2018-09-29 17:09:50,255 - root - INFO - cxm login success
+2018-09-29 17:10:04,553 - root - INFO - cxm 存款 1000.00元
+2018-09-29 17:10:07,991 - root - INFO - cxm 存款 1000.00元
+2018-09-29 17:38:23,980 - root - INFO - cxm login success
+2018-09-29 17:39:42,284 - root - INFO - cxm login success
+2018-09-29 17:39:59,156 - root - INFO - cxm 还款 1000.00元
+2018-09-29 17:42:49,617 - root - INFO - cxm login success
+2018-09-29 17:42:54,234 - root - WARNING - 还款unsupported operand type(s) for -: 'float' and 'str'
+2018-09-29 17:44:00,734 - root - INFO - cxm login success
+2018-09-29 17:44:04,085 - root - INFO - cxm 还款 1000.00元
+2018-09-29 18:31:51,431 - root - INFO - cxm login success
+2018-09-29 18:32:00,398 - root - INFO - cxm 取款 1000.00元
+2018-09-29 19:30:29,355 - root - INFO - cxm login success
+2018-09-29 19:31:18,611 - root - INFO - cxm login success
+2018-09-29 19:31:51,196 - root - INFO - cxm login success
+2018-09-29 19:31:55,141 - root - INFO - cxm 转账 1000.00元 -->Becky
+2018-09-29 19:33:05,540 - root - INFO - cxm login success
+2018-09-29 19:33:15,086 - root - INFO - cxm 转账 2000.00元 -->Becky
+2018-09-29 19:40:25,910 - root - INFO - cxm login success
+2018-09-29 19:40:46,822 - root - INFO - cxm login success
+2018-09-29 19:41:13,343 - root - INFO - cxm login success
+2018-09-29 19:41:27,105 - root - INFO - cxm 还款 1000.00元
+2018-09-29 19:42:26,322 - root - INFO - cxm login success
+2018-09-29 19:42:32,653 - root - INFO - cxm login success
+2018-09-29 19:42:42,722 - root - INFO - cxm 存款 1000.00元
