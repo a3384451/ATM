@@ -13,18 +13,31 @@ class ATM(object):
     atm_calculate= AtmCalculate()
     cls_auth = auth.Auth()
 
-    def __call__(self, *args, **kwargs):
+    def run(self):
         '''进入主程序入口'''
         auth_data = self.cls_auth.access_login()
-        if  auth_data['status']:
+        if auth_data['status']:
             print('登录成功')
             # 如果登录成功,将信息获取到self中
             try:
-                self.auth_data=auth_data['user_data']
-                self.username=self.auth_data['username']
+                self.auth_data = auth_data['user_data']
+                self.username = self.auth_data['username']
             except KeyError as e:
                 logger.warning('进入主程序入口KeyError')
             self.interactive()
+
+    # def __call__(self, *args, **kwargs):
+    #     '''进入主程序入口'''
+    #     auth_data = self.cls_auth.access_login()
+    #     if  auth_data['status']:
+    #         print('登录成功')
+    #         # 如果登录成功,将信息获取到self中
+    #         try:
+    #             self.auth_data=auth_data['user_data']
+    #             self.username=self.auth_data['username']
+    #         except KeyError as e:
+    #             logger.warning('进入主程序入口KeyError')
+    #         self.interactive()
 
     @check_login
     def account_info(self):
@@ -284,5 +297,3 @@ class ATM(object):
         display_opare = '\n'.join(display_opare)
         return display_opare,opera_mapping_dict
 
-
-atm=ATM()

@@ -28,3 +28,5 @@
 2018-09-29 19:42:26,322 - root - INFO - cxm login success
 2018-09-29 19:42:32,653 - root - INFO - cxm login success
 2018-09-29 19:42:42,722 - root - INFO - cxm 存款 1000.00元
+2018-10-02 09:34:22,086 - root - INFO - cxm login success
+2018-10-02 09:34:47,507 - root - INFO - cxm 存款 222.00元
